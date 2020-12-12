@@ -2,15 +2,15 @@
 // │
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		        /*Update Interval*/	   /*Update Signal*/
-    { "  ",      "~/scripts/status/weather",             0,    20 },
-    { "   ",     "~/scripts/status/wifinetwork",         0,    15 },
-    { "   ",     "~/scripts/status/newsboat_status",     7200, 21 },
-    { "   ",     "~/scripts/status/sys_resources",       0,    18 },
-    { "   ",     "~/scripts/status/disk",                0,    16 },
-    { "   ",     "~/scripts/status/kblayout",            0,    12 },
-    { "   ",     "~/scripts/status/volume",              0,    10 },
-    { "   ",     "~/scripts/status/battery",             5,    17 },
-    { "   ",     "~/scripts/status/clock",               5,    13 },
+    { "  ",      "~/source/scripts/status/weather",             0,    20 },
+    { "   ",     "~/source/scripts/status/wifinetwork",         0,    15 },
+    { "   ",     "~/source/scripts/status/newsboat_status",     7200, 21 },
+    { "   ",     "~/source/scripts/status/sys_resources",       0,    18 },
+    { "   ",     "~/source/scripts/status/disk",                0,    16 },
+    { "   ",     "~/source/scripts/status/kblayout",            0,    12 },
+    { "   ",     "~/source/scripts/status/volume",              0,    10 },
+    { "   ",     "~/source/scripts/status/battery",             5,    17 },
+    { "   ",     "~/source/scripts/status/clock",               5,    13 },
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
