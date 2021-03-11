@@ -4,7 +4,6 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/		        /*Update Interval*/	   /*Update Signal*/
     { "  ",      "~/source/scripts/status/wifinetwork",         0,    15 },
     { "   ",     "~/source/scripts/status/vpn",                 0,    12 },
-    { "   ",     "~/source/scripts/status/newsboat_status",  7200,    21 },
     { "   ",     "~/source/scripts/status/mail",                0,    11 },
     { "   ",     "~/source/scripts/status/volume",              0,    10 },
     { "   ",     "~/source/scripts/status/battery",             5,    17 },
