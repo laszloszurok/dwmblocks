@@ -132,7 +132,7 @@ void updateBlock(int i) {
     buffer[j] = ' ';
 
     // Trim trailing spaces
-    while (j >= 0 && buffer[j] == ' ') j--;
+    // while (j >= 0 && buffer[j] == ' ') j--;
 
     buffer[j + 1] = 0;
 
